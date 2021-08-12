@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/students
+
+###
+
+GET http://localhost:3000/api/students/6114aca821104f3ac4d09c1c
+
+###
+
+POST http://localhost:3000/api/students
+Content-Type: application/json
+
+{
+    "name": "GNV",
+    "roll": 32,
+    "present": true
+}
+
+###
+
+PUT http://localhost:3000/api/students/6114a86429f59f3485864760
+Content-Type: application/json
+
+{
+    "name": "Gn vageesh",
+    "roll": 29,
+    "present": false
+}
