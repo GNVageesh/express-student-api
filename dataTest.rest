@@ -1,4 +1,4 @@
-GET http://localhost:3000/api/students
+GET https://1ced2a8f3211.up.railway.app/api/students
 
 ###
 
@@ -6,26 +6,26 @@ GET http://localhost:3000/api/students/6114aca821104f3ac4d09c1c
 
 ###
 
-POST http://localhost:3000/api/students
+POST https://1ced2a8f3211.up.railway.app/api/students
 Content-Type: application/json
 
 {
-    "name": "new user",
+    "name": "someone",
     "roll": 36,
     "present": true
 }
 
 ###
 
-PUT http://localhost:3000/api/students/6114acbb21104f3ac4d09c1e
+PUT https://1ced2a8f3211.up.railway.app/api/students/6114b42d24450a001b9aa64d
 Content-Type: application/json
 
 {
-    "name": "Ninja",
+    "name": "the new ninja",
     "roll": 29,
     "present": false
 }
 
 ###
 
-DELETE http://localhost:3000/api/students/6114acbb21104f3ac4d09c1e
+DELETE https://1ced2a8f3211.up.railway.app/api/students/6114b42d24450a001b9aa64d
