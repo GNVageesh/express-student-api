@@ -1,12 +1,12 @@
-GET https://1ced2a8f3211.up.railway.app/api/students
+GET https://express-student-api-production.up.railway.app/api/students
 
 ###
 
-GET http://localhost:3000/api/students/6114aca821104f3ac4d09c1c
+GET https://express-student-api-production.up.railway.app/api/students6114aca821104f3ac4d09c1c
 
 ###
 
-POST https://1ced2a8f3211.up.railway.app/api/students
+POST https://express-student-api-production.up.railway.app/api/students
 Content-Type: application/json
 
 {
@@ -17,7 +17,7 @@ Content-Type: application/json
 
 ###
 
-PUT https://1ced2a8f3211.up.railway.app/api/students/6114b42d24450a001b9aa64d
+PUT https://express-student-api-production.up.railway.app/api/students/6114b42d24450a001b9aa64d
 Content-Type: application/json
 
 {
@@ -28,4 +28,4 @@ Content-Type: application/json
 
 ###
 
-DELETE https://1ced2a8f3211.up.railway.app/api/students/6114b42d24450a001b9aa64d
+DELETE https://express-student-api-production.up.railway.app/api/students/6114b42d24450a001b9aa64d
