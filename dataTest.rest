@@ -10,14 +10,14 @@ POST http://localhost:3000/api/students
 Content-Type: application/json
 
 {
-    "name": "GNV",
-    "roll": 32,
+    "name": "new user",
+    "roll": 36,
     "present": true
 }
 
 ###
 
-PUT http://localhost:3000/api/students/6114a86429f59f3485864760
+PUT http://localhost:3000/api/students/6114acbb21104f3ac4d09c1e
 Content-Type: application/json
 
 {
@@ -25,3 +25,7 @@ Content-Type: application/json
     "roll": 29,
     "present": false
 }
+
+###
+
+DELETE http://localhost:3000/api/students/6114acbb21104f3ac4d09c1e
